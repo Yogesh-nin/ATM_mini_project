@@ -159,7 +159,7 @@ int main()
                 case 1: // if user presses 1
                     cout << endl
                          << "Your Bank balance is :" << user1.getBalance();
-                    // getBalance is ... printing the users									bank balance
+                    // getBalance is ... printing the users bank balance
                     _getch();
                     break;
 
@@ -207,7 +207,7 @@ int main()
                          << "Enter Valid Data !!!";
                 }
 
-            } while (1); // MENU	   // condition will always TRUE and loop is										capable of running infinite times
+            } while (1); // MENU	   // condition will always TRUE and loop is capable of running infinite times
         }
 
         else
@@ -216,7 +216,7 @@ int main()
                  << "User Details are Invalid !!! ";
             _getch();
         }
-    } while (1); // LOGIN		// condition will always TRUE and loop is										capable of running infinite times
+    } while (1); // LOGIN		// condition will always TRUE and loop is capable of running infinite times
 
     return 0;
 }
